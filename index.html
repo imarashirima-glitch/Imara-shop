@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="sw">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Imara Shop</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f5f5f5;
+    }
+
+    header {
+      background: #1f2937;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .container {
+      padding: 20px;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 15px;
+    }
+
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    .card h3 {
+      margin-top: 0;
+    }
+
+    button {
+      background: #16a34a;
+      color: white;
+      border: none;
+      padding: 12px 18px;
+      border-radius: 7px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #15803d;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Imara Shop</h1>
+    <p>Mfumo wa Stock, Mauzo, Wateja na Wafanyakazi</p>
+  </header>
+
+  <div class="container">
+
+    <h2>Dashboard</h2>
+
+    <div class="cards">
+
+      <div class="card">
+        <h3>📦 Stock</h3>
+        <p>Bidhaa zilizopo: <strong>0</strong></p>
+        <button>Angalia Stock</button>
+      </div>
+
+      <div class="card">
+        <h3>💰 Mauzo</h3>
+        <p>Mauzo ya leo: <strong>TSh 0</strong></p>
+        <button>Angalia Mauzo</button>
+      </div>
+
+      <div class="card">
+        <h3>👥 Wateja</h3>
+        <p>Wateja: <strong>0</strong></p>
+        <button>Wateja</button>
+      </div>
+
+      <div class="card">
+        <h3>👨‍💼 Wafanyakazi</h3>
+        <p>Wafanyakazi: <strong>0</strong></p>
+        <button>Wafanyakazi</button>
+      </div>
+
+    </div>
+
+  </div>
+
+</body>
+</html>
